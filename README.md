@@ -1,7 +1,8 @@
 # TouchscreenPenControl
-Turn on or off your touchscreen with the upper pen button (works only on digitizers)
+Turn on or off your touchscreen with the upper pen button while hovering (works only on digitizers)
 
-A way to deal with bad palmrejection.
+A way to deal with bad palm rejection.
+
 
 # Install
 1. Install Autohotkey
