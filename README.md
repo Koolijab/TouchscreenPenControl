@@ -1,5 +1,5 @@
 # AutoHotkey Script to turn on/off Windows Digitizer Touchscreen with Penbutton
-Turn on or off your touchscreen with the upper pen button while hovering (works only on digitizers)
+Turn on or off your touchscreen with the upper pen button while hovering
 
 A way to deal with bad palm rejection.
 
@@ -7,8 +7,8 @@ A way to deal with bad palm rejection.
 # Install
 1. Install Autohotkey
 
-2. Compile **"Touchscreen control.ahk"** with AutoHotkey 
-    ***-> Keep "Touchscreen control.exe", "setTouchscreen.bat", "launch.vbs", in the same directory!!!***
+2. Compile **"Touchscreen control.ahk"** with AutoHotkey    
+      ***-> Put "Touchscreen control.exe", "setTouchscreen.bat", "launch.vbs", in the same directory***
     
 3. Open the "Task sheduler" (keep everything as it is unless I tell you something else) 
     - Create a new Task
@@ -30,7 +30,7 @@ A way to deal with bad palm rejection.
     
 4.  Configure "setTouchscreen.bat"  
       Go to Device-Manager. Under *"Human Interface Devices"*, search for *"Touchscreen"*.  
-      Open the Properties of the Touchscreen and search for *"Devicepath"* under *"Details"*-Tab  
+      Open the Properties of the Touchscreen and go to *Details -> Devicepath* 
       The Devicepath should looke something like this: `"@HID\ELAN0732&COL01\5&242C8B19&1&0000"`.  
       Copy this path and replace all such paths in *"SetTouchscreen.bat"* with your Touchscreen-path.  
       
