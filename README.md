@@ -7,8 +7,8 @@ A way to deal with bad palm rejection.
 # Install
 1. Install Autohotkey
 
-2. Compile **"Touchscreen control.ahk"**  
-    ***Keep "Touchscreen control.exe", "setTouchscreen.bat", "launch.vbs", in the same directory!!!***
+2. Compile **"Touchscreen control.ahk"** with AutoHotkey 
+    ***-> Keep "Touchscreen control.exe", "setTouchscreen.bat", "launch.vbs", in the same directory!!!***
     
 3. Open the "Task sheduler" (keep everything as it is unless I tell you something else) 
     - Create a new Task
