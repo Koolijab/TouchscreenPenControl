@@ -3,6 +3,11 @@ Turn on or off your touchscreen with the upper pen button while hovering
 
 A way to deal with bad palm rejection.
 
+#Requirements
+Touchscreen
+Digitizer Pen
+Autohotkey
+Microsoft devcon.exe (WDK)
 
 # Install
 1. Install Autohotkey
@@ -29,6 +34,7 @@ A way to deal with bad palm rejection.
     The rest can stay as it is.
     
 4.  Configure "setTouchscreen.bat"  
+      Locate the `devcon.exe` on your PC and replace the Path in Line 3 with your Path.  
       Go to Device-Manager. Under *"Human Interface Devices"*, search for *"Touchscreen"*.  
       Open the Properties of the Touchscreen and go to *Details -> Devicepath* 
       The Devicepath should looke something like this: `"@HID\ELAN0732&COL01\5&242C8B19&1&0000"`.  
