@@ -3,11 +3,12 @@ Turn on or off your touchscreen with the upper pen button while hovering
 
 A way to deal with bad palm rejection.
 
-#Requirements
-Touchscreen
-Digitizer Pen
-Autohotkey
-Microsoft devcon.exe (WDK)
+# Requirements  
+
+- Touchscreen  
+- Digitizer Pen  
+- Autohotkey  
+- Microsoft devcon.exe (WDK)
 
 # Install
 1. Install Autohotkey
