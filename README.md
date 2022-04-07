@@ -1,4 +1,4 @@
-# TouchscreenPenControl
+# AutoHotkey Script to turn on/off Windows Digitizer Touchscreen with Penbutton
 Turn on or off your touchscreen with the upper pen button while hovering (works only on digitizers)
 
 A way to deal with bad palm rejection.
